@@ -84,24 +84,7 @@ function stickyCase(string) {
 //   => 'j4v45cr1p7'
 function leetspeak(string) {
   let newString = '';
-  for (let i = 0; i < string.length; i++) {
-    if (string[i] === 'a') {
-      newString += '4';
-    } else if (string[i] === 'e') {
-      newString += '3';
-    } else if (string[i] === 'i') {
-      newString += '1';
-    } else if (string[i] === 'o') {
-      newString += '0';
-    } else if (string[i] === 's') {
-      newString += '5';
-    } else if (string[i] === 't') {
-      newString += '7';
-    } else {
-      newString += string[i];
-    }
-  }
-  return newString;
+  
 
   
 }
